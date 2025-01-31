@@ -33,6 +33,7 @@ class InteractionAggregator {
 
 class DetectedPattern {
     constructor(temporal, spacial, speed, summary) {
+        this.type = 'cairn';
         this.temporal = temporal; // "rhythmic" --- "chaotic"
         this.spacial = spacial; // "clustered" --- "scattered"
         this.summary = summary; // string summary of the list of interactions
